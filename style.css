@@ -3,21 +3,29 @@ body {
   /*background-color: #BFD8D2;*/
 }
 .section {
-  overflow: hidden;
+  verflow: hidden;
   background-color: white;
   position:relative;
   top: 0%;
   height: 100%;
   width: 100%;
+  text-align: center;
 }
 .text {
   position: relative;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 75%;
+
+  /*position: relative;
   font-family: 'Comfortaa', cursive;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   color: #DF744A;
-  font-size: 12px;
+  font-size: 12px;*/
 }
 canvas[resize] {
   position: absolute;
