@@ -3,7 +3,7 @@ body {
   /*background-color: #BFD8D2;*/
 }
 .section {
-  verflow: hidden;
+  overflow: hidden;
   background-color: white;
   position:relative;
   top: 0%;
@@ -13,11 +13,12 @@ body {
 }
 .text {
   position: relative;
+  color: #DF744A;
   width: 50%;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  font-size: 75%;
+  font-size: 30px;
 
   /*position: relative;
   font-family: 'Comfortaa', cursive;
