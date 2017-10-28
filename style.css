@@ -3,9 +3,9 @@ body {
   /*background-color: #BFD8D2;*/
 }
 .section {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: white;
-  position:relative;
+  position:absolute;
   top: 0%;
   height: 100%;
   width: 100%;
